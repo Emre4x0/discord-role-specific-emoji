@@ -10,5 +10,8 @@ Here's how you can use it for your command;
    .roles // then the current role restrictions (default: none)
    .add(['<Role ID>', '<Role ID>'); // then add, set, or remove the specified roles```**
 
-
+**Example:**
+```
+message.guild.emojis.cache.get('937637253126180904').roles.add('917087202100543539');
+```
 
